@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "scraping-tool"
+version = "0.1.0"
+description = ""
+authors = ["Shubham Bansal <shubhambansal17@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pydantic = "^2.7.1"
+ipython = "^8.24.0"
+tenacity = "^8.3.0"
+lxml = "^5.2.2"
+fastapi = "^0.111.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
